@@ -53,7 +53,7 @@ int main() {
             cout << "Autoclicker is stopped\n\n"; 
             break;;
         }
-        if (GetAsyncKeyState(VK_F8) & 0x8000)           // F6 to start 
+        if (GetAsyncKeyState(VK_F8) & 0x8000)           // F8 to show and change the settings 
         {
             autoclickerSettings.changesettings(); 
             break;
